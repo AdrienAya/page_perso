@@ -6,7 +6,7 @@ var a = 0;
 var transition_1 = document.getElementById('transition');
 var bouton =  document.getElementById("next");
 var bouton_2 =  document.getElementById("previous");
-var bouton_3 = document.getElementById('reload_button')
+var bouton_3 = document.getElementById('reload_button');
 var scrolling_2 = document.getElementById('scroll_jv');
 var translate = ["translateY(0%)" , "translateY(-100%)" , "translateY(-200%)" , "translateY(-300%)"];
 var point_one = document.getElementById("point");
@@ -20,10 +20,9 @@ var button_nav_3 = document.getElementById('nav_3');
 var background_color = [background_color_btc, background_color_btc_2 , background_color_btc_3, background_color_btc_4];
 var lecture_2 = document.getElementById("content_lecture_2");
 var lecture_1 = document.getElementById("content_lecture");
-            
-            
-           
-    
+var transition_2 = document.getElementById('transition_page_1');
+var transition_3 = document.getElementById('transition_page_2');    
+
             
       window.onload = function(){
             
@@ -79,12 +78,23 @@ var lecture_1 = document.getElementById("content_lecture");
             point_four.style.transition = "0.8s"; 
             bouton.style.transition = "0.8s"; 
             bouton_2.style.transition = "0.8s"; 
-                         
-                      
-                          },500);
-              
              
-            
+                      
+                          },1300);
+              
+                setTimeout(function(){
+              
+         transition_2.style.boxShadow = "0px 0px 5px #03e9f4,0px 0px 15px #03e9f4";
+            transition_3.style.boxShadow = "0px 0px 5px #03e9f4,0px 0px 15px #03e9f4" ;    
+                      
+                          },700);
+          
+                setTimeout(function(){
+              
+            transition_2.style.transform = "translateX(-105%)";
+            transition_3.style.transform = "translateX(105%)" ;    
+                      
+                          },1000);
             
         };
     
@@ -306,9 +316,9 @@ var lecture_1 = document.getElementById("content_lecture");
                    });
                  
                
-            
-            
-              
+    
+             
+     
     
           
     window.addEventListener("mousewheel",myfunction);
@@ -392,15 +402,7 @@ var lecture_1 = document.getElementById("content_lecture");
                 
             }
              
-         if (a==0){
-             
-            lecture_1.style.left="3%";
-            lecture_1.style.visibility="visible";
-             
-         }
-            
-      
-            
+       
         
                                    
                  

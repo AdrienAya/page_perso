@@ -90,11 +90,64 @@ img{
     height: 100%;
     background: black;
     top: 0;
-    z-index: 1000;
+    z-index: 1500;
    
     
     
         
+    
+}
+
+
+#transition_page_1{
+    
+    position: absolute;
+    width: 50%;
+    height: 100%;
+background: rgb(2,1,23);
+background: linear-gradient(90deg, rgba(2,1,23,1) 0%, rgba(4,4,46,1) 100%);
+    top: 0;
+    left: 0;
+    z-index: 1200;
+     color: white;
+    transition: 1s;
+
+    
+}
+
+#transition_page_1 h5{
+    position: absolute;
+    font-size: 3em;
+    top: 35%;
+    right: 0;
+    padding: 5% 1% 5% 5%;
+    border: 1px solid white;
+    border-right: none;
+}
+
+
+#transition_page_2 h5{
+    position: absolute;
+    font-size: 3em;
+    top: 35%;
+    border: 1px solid white;
+    border-left: none;
+    padding: 5% 5% 5% 1%;
+}
+
+#transition_page_2{
+    
+    position: absolute;
+    width: 50%;
+    height: 100%;
+background: rgb(4,4,46);
+background: linear-gradient(90deg, rgba(4,4,46,1) 0%, rgba(5,5,60,1) 100%);
+    top: 0;
+    right:0;
+    z-index: 1200;
+    color: white; 
+    transition: 1s;
+    
     
 }
 
@@ -289,7 +342,6 @@ a{
 #reload_button{
     position: absolute;
     z-index: 90;
-    z-index: 90;
      display: block;
     left: 3%;
     top: 2.5%;
@@ -297,21 +349,66 @@ a{
     height: 5%;
     background: none;
     border: 2px solid white;
-    color: white; 
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     display: table-cell;
     justify-content: center;
     letter-spacing: .3rem;
-    transition: .5s;
+    
     outline: none;
     transform: translateY(-150%);
     
 }
 
-#ramdom_3:hover{
-               
+
+#reload_button a{
+    z-index: 150;
+    color: white;
 }
+
+#reload_button:hover a{
+    z-index: 150;
+    color: black;
+}
+
+
+#reload_button:before{
+   position: absolute;
+    content: '';
+     border: 1px solid transparent;
+    height: 100%;
+    width: 0%;
+    right:50%;
+    top: 0;
+    z-index: -50;
+    box-sizing: border-box;
+    transition: .3s;
+
+}
+
+
+#reload_button:after{
+   position: absolute;
+    content: '';
+    border: 1px solid transparent;
+    height: 100%;
+    width: 0%;
+    top: 0;
+      z-index: -50;
+    left:50%;
+    transition: .3s;
+}
+
+#reload_button:hover:before {
+    width: 50%;
+    background: white;
+}
+#reload_button:hover:after {
+    width: 50%;
+    background: white;
+}
+
+
 
 #scroll_jv{
     scroll-behavior: smooth;
@@ -404,11 +501,11 @@ a{
     position: absolute;
      z-index: 150;
     top:20%;
-    left: 60%;
+    left: 5%;
     color: white;
     text-align: center;
     transition: 1.5s;
-    visibility: hidden;
+   
 }
 
 #content_lecture p{
