@@ -216,6 +216,8 @@ var transition_3 = document.getElementById('transition_page_2');
                     }
                 else if (a>3){
                     a=0;
+                     point_four.style.boxShadow="none";
+                    point_jor[a].style.boxShadow="0px 0px 15px #03e9f4";
                      scrolling_2.style.transform=translate[a];
                 }
                      
@@ -226,6 +228,8 @@ var transition_3 = document.getElementById('transition_page_2');
                          
                      point_jor[a].style.background="white";                  
                      point_jor[a-1].style.background="grey";
+                     point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
+                     point_jor[a-1].style.boxShadow= "none";   
                                       
                      
                      
@@ -240,12 +244,16 @@ var transition_3 = document.getElementById('transition_page_2');
                 a = a <translate.length ? --a : 0;
                
                     if (a<0) {
-                    a=3;             
+
+                    a=3;
+                    point_jor[a].style.boxShadow="0px 0px 15px #03e9f4";
+                    
                     console.log(a)
                 }
                      
                      if(a==3) {
                             point_jor[0].style.background="grey";
+                          point_jor[0].style.boxShadow="none";
                      }
                      
                      
@@ -253,6 +261,8 @@ var transition_3 = document.getElementById('transition_page_2');
                    
                 point_jor[a].style.background="white";
                 point_jor[a+1].style.background="grey";
+                      point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
+                     point_jor[a+1].style.boxShadow= "none";   
                   
                 });        
             
@@ -262,11 +272,15 @@ var transition_3 = document.getElementById('transition_page_2');
                     point_two.style.background="grey";
                      point_three.style.background="grey";
                      point_four.style.background="grey";
+                     point_four.style.boxShadow="none";
+                     point_two.style.boxShadow="none";
+                     point_three.style.boxShadow="none";
                      a=0;
                      }
                  
                  scrolling_2.style.transform = translate[0];
                  point_one.style.background="white";
+                 point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
               
                  
                  
@@ -277,12 +291,17 @@ var transition_3 = document.getElementById('transition_page_2');
                     point_one.style.background="grey";
                      point_three.style.background="grey";
                      point_four.style.background="grey";
+                     point_three.style.boxShadow="none";
+                     point_four.style.boxShadow="none";
+                     point_one.style.boxShadow="none";     
                      a=1;
                      }
                  
                   
                  scrolling_2.style.transform = translate[1];
+                 
                    point_two.style.background="white";
+                    point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
                 
                  
                  
@@ -293,11 +312,16 @@ var transition_3 = document.getElementById('transition_page_2');
                     point_two.style.background="grey";
                      point_one.style.background="grey";
                      point_four.style.background="grey";
+                        point_two.style.boxShadow="none";
+                     point_four.style.boxShadow="none";
+                     point_one.style.boxShadow="none";                      
                      a=2;
                      }
                  
                  scrolling_2.style.transform = translate[2];
                    point_three.style.background="white";
+                    point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
+                   point_jor[a-1].style.boxShadow= "none";   
               
                  
              });
@@ -306,13 +330,16 @@ var transition_3 = document.getElementById('transition_page_2');
                     point_two.style.background="grey";
                      point_three.style.background="grey";
                      point_one.style.background="grey";
+                      point_two.style.boxShadow="none";
+                     point_three.style.boxShadow="none";
+                     point_one.style.boxShadow="none";              
                      a=3;
                      }
                  
                   
                  scrolling_2.style.transform = translate[3];
                    point_four.style.background="white";
-                 
+                   point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
                    });
                  
                
@@ -332,15 +359,22 @@ var transition_3 = document.getElementById('transition_page_2');
         if(scrolling_2.deltaY>0)
                   {          
             
-              a++;    
-                
+              a++; 
+             point_jor[a].style.background="white";
+             point_jor[a-1].style.background="grey";
+             point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
+             point_jor[a-1].style.boxShadow= "none";   
                    }   
            
            
              else if(scrolling_2.deltaY<0)
                   {          
-            
+          
               a--;    
+            point_jor[a].style.background="white";
+             point_jor[a+1].style.background="grey";
+             point_jor[a].style.boxShadow= "0px 0px 15px #03e9f4";    
+             point_jor[a+1].style.boxShadow= "none";   
                 
                    } 
            
@@ -355,6 +389,7 @@ var transition_3 = document.getElementById('transition_page_2');
            }
            
            
+        
            
            
              if(a==0){
@@ -372,13 +407,11 @@ var transition_3 = document.getElementById('transition_page_2');
            else if(a==1){
                
                document.getElementById("scroll_jv").style.transform=pos[a]; 
-             
                console.log(a)
                   window.removeEventListener("mousewheel",myfunction);
                setTimeout(function(){
                     window.addEventListener("mousewheel",myfunction) },500);
-                 lecture_2.style.left="3%";
-            lecture_2.style.visibility="visible"; 
+               
                 
             }
                   

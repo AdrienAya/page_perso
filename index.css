@@ -966,7 +966,7 @@ img{
     
 }
 
-@media all and (max-height:660px)and (min-width:150px) and (min-width:768px) and (max-width:1000px){
+@media all and (max-height:660px)and (min-width:150px) and (min-width:708px) and (max-width:1000px){
     
      #header_index {
         visibility: hidden;
