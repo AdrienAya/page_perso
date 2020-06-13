@@ -154,12 +154,12 @@ a{
 }
 
 
-#tittle_blockchain{
+#tittle_1{
     z-index: 15;
     position: absolute;
     color: red;
     z-index: 350;
-    left: 25%;
+    left: 23%;
     width: 42%;
     height: 20%;
     margin-top: 0;
@@ -171,7 +171,7 @@ a{
     
 }
 
-#tittle_blockchain p{
+#tittle_1 p{
     position: absolute;
        font-size: 2.3em;
     top: 30%;
@@ -182,36 +182,94 @@ a{
     
 }
 
-#content_2_btc #tittle_blockchain p{
-    position: absolute;
-       font-size: 2.3em;
-    top: 540%;
-    left: 20%;
-    margin: 0;
-    
-    
-    
-}
 
-#content_3_btc #tittle_blockchain p{
-    position: absolute;
-       font-size: 2.3em;
-    font-weight: bold;
-    top: 1040%;
-    left: 20%;
-    margin: 0;
-    
-    
-    
-}
 
-#tittle_blockchain h5{
+#tittle_1 h5{
    
     font-size: 2.9em;
     margin: 0;
     
 }
 
+
+
+
+#tittle_2{
+    z-index: 15;
+    position: absolute;
+    color: #03e9f4;
+    z-index: 350;
+    left: 25%;
+    top: 100%;
+    width: 42%;
+    height: 20%;
+    margin-top: 0;
+    padding: 0;
+      
+   
+    
+    
+    
+}
+
+#tittle_2 p{
+    position: absolute;
+       font-size: 2.3em;
+    left: 20%;
+    margin: 0;
+    
+    
+    
+}
+
+
+
+#tittle_2 h5{
+   
+    font-size: 2.9em;
+    margin: 0;
+    
+}
+
+
+
+#tittle_3{
+    z-index: 15;
+    position: absolute;
+    color: #03e9f4;
+    z-index: 350;
+    left: 25%;
+    top: 200%;
+    width: 42%;
+    height: 20%;
+    margin-top: 0;
+    padding: 0;
+      
+   
+    
+    
+    
+}
+
+#tittle_3 p{
+    position: absolute;
+       font-size: 2.3em;
+    top: 30%;
+    left: 20%;
+    margin: 0;
+    
+    
+    
+}
+
+
+
+#tittle_3 h5{
+   
+    font-size: 2.9em;
+    margin: 0;
+    
+}
 
 
 
@@ -232,7 +290,7 @@ a{
 
 
 
-#ramdom{
+#next{
     position: absolute;
     z-index: 90;
     left: 57%;
@@ -254,14 +312,14 @@ a{
     
 }
 
-#ramdom:hover{
+#next:hover{
     background-color: white;
     color: #150840;
     
 }
 
 
-#ramdom_2{
+#previous{
     position: absolute;
     z-index: 90;
     left: 38%;
@@ -283,13 +341,13 @@ a{
     
 }
 
-#ramdom_2:hover{
+#previous:hover{
     background-color: white;
     color: #150840;
     
 }
 
-#ramdom_3{
+#reload_button{
     position: absolute;
     z-index: 90;
     z-index: 90;
@@ -312,11 +370,61 @@ a{
     
 }
 
-#scroll_btc{
+
+#reload_button a{
+    z-index: 150;
+    color: white;
+}
+
+#reload_button:hover a{
+    z-index: 150;
+    color: black;
+}
+
+
+#reload_button:before{
+   position: absolute;
+    content: '';
+     border: 1px solid transparent;
+    height: 100%;
+    width: 0%;
+    right:50%;
+    top: 0;
+    z-index: -50;
+    box-sizing: border-box;
+    transition: .3s;
+
+}
+
+
+#reload_button:after{
+   position: absolute;
+    content: '';
+    border: 1px solid transparent;
+    height: 100%;
+    width: 0%;
+    top: 0;
+      z-index: -50;
+    left:50%;
+    transition: .3s;
+}
+
+#reload_button:hover:before {
+    width: 50%;
+    background: white;
+}
+#reload_button:hover:after {
+    width: 50%;
+    background: white;
+}
+
+
+#scroll{
     position: relative;
      height: 100%;
     width: 100%;
-    transition: .5s;
+       transition: 1s;
+    scroll-behavior: smooth;
    
    
 }
@@ -383,7 +491,7 @@ a{
    
 
 
-#content_1_btc{
+#content_1{
     
     position: absolute;
     width: 100%;
@@ -398,19 +506,19 @@ a{
 
 #content_lecture{
     z-index: 15;
-    width: 35%;
+    width: 40em;
     height: 70%;
     position: absolute;
      z-index: 150;
     top:20%;
-    left: 3%;
+    left: 5%;
     color: white;
     text-align: center;
     
 }
 
 #content_lecture p{
-    font-size: 1.5em;
+    font-size: 1.35em;
 }
 
 #one{
@@ -454,10 +562,10 @@ a{
 #master_1{
     position: absolute;
     z-index: 200;
-    width: 20%;
-    height: 50%;
+    width: 25em;;
+    height: 30em;
     right: 4%;
-    top: 30%;
+    top: 22%;
     
     
         
@@ -565,15 +673,6 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 
 
 
-#content_2_btc h5{
-    position: absolute;
-    top: 510%;
-}
-#content_2_btc p{
-      position: absolute;
-    top: 519%;
-    
-}
 
 
 #master_content_2{
@@ -595,8 +694,8 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 
 #master_2{
     position: absolute;
-    width: 25%;
-    height: 50%;
+    width: 25em;
+    height:25em;
     right: 2%;
     top: 130%;
     
@@ -621,6 +720,7 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
     background: #030e21;
     border-radius: 5px;  
     text-align: center;
+    font-size: 90%;
     color: white;
   
 }
@@ -649,9 +749,8 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 }
 
 
-#content_lecture_2 p{
-    width: 25%;
-    height: 70%;
+#content_lecture_2 {
+    width: 30em;
     position: absolute;
      z-index: 150;
     top:125%;
@@ -677,15 +776,6 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 
 /* ********************************* PART 3 ********************************/
 
-#content_3_btc h5{
-    position: absolute;
-    top: 1010%;
-}
-#content_3_btc p{
-      position: absolute;
-    top: 1019%;
-    
-}
 
 
 #master_content_3{
@@ -761,9 +851,8 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 }
 
 
-#content_lecture_3 p{
-    width: 25%;
-    height: 70%;
+#content_lecture_3 {
+    width: 25em;
     position: absolute;
      z-index: 150;
     top:225%;
@@ -789,16 +878,6 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 
 /**************************** PART 4 **********************/
 
-#content_4_btc h5{
-    position: absolute;
-    top: 1510%;
-    color: black;
-    font-size: 3.5em;
-    border: 1px solid white;
-    background: white;
-    border-radius: 5px;
-}
-
 
 
 
@@ -808,12 +887,14 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
    height: 70%;
     background: black;
     z-index: 5000;
-    left: 10%;
+    left: 8.5%;
     opacity: 0.90;
     color: white;
      z-index: 150;
-    top:315%;
+    top:310%;
     color: white;
+    font-size: 1.4em;
+    padding: 2%;
   
     
 }
@@ -840,331 +921,813 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
     
 }
 
+/***** TRANSITION*******/
+
+#transition_page_1{
+    
+    position: absolute;
+    width: 50%;
+    height: 100%;
+background: rgb(2,1,23);
+background: linear-gradient(90deg, rgba(2,1,23,1) 0%, rgba(4,4,46,1) 100%);
+    top: 0;
+    left: 0;
+    z-index: 1200;
+     color: white;
+    transition: 1s;
+
+    
+}
+
+#transition_page_1 h5{
+    position: absolute;
+    font-size: 3em;
+    top: 35%;
+    right: 0;
+    padding: 5% 0% 5% 5%;
+    border: 1px solid white;
+    border-right: none;
+}
+
+
+#transition_page_2 h5{
+    position: absolute;
+    font-size: 3em;
+    top: 35%;
+    border: 1px solid white;
+    border-left: none;
+    padding: 5% 5% 5% 0%;
+}
+
+#transition_page_2{
+    
+    position: absolute;
+    width: 50%;
+    height: 100%;
+background: rgb(4,4,46);
+background: linear-gradient(90deg, rgba(4,4,46,1) 0%, rgba(5,5,60,1) 100%);
+    top: 0;
+    right:0;
+    z-index: 1200;
+    color: white; 
+    transition: 1s;
+    
+    
+}
+
 
 /***************** MEDIA QUERIES ***********************/
 
-@media  all and (max-width:720px) and (min-width:200px) {
+/*Horizonal*/
 
+@media all and (min-width:1200px) and (max-width:1980px) and (min-height:600px)and (max-height:752px){
+  
+    /*PART 1*/
+    
+    #content_lecture{
+        width: 50em;
+        font-size: 0.9em;
+       
+    }
+    
+    #tittle_1 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_1 p{
+        font-size: 1.6em;
+    }
+    
+    #master_1{
+        height: 24em;
+    }
+    
+    /*PART 2*/
+    
+    #content_lecture_2{
+        width: 30em;
+        font-size: 1.3em;
+       
+    }
+    
+    #tittle_2 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_2 p{
+        font-size: 1.6em;
+    }
+    
+    #master_2{
+        height: 20em;
+    }
+    /*PART 3*/
+    
+       #tittle_3 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_3 p{
+        font-size: 1.4em;
+    }
+ 
+    #content_lecture_3{
+        top: 215%;
+        left: 10%;
+        width: 30em;
+        font-size: 1.4em;
+       
+    }
+    
+    /*PART4*/
+    
+    #hello{
+        font-size: 1.2em;
+    }
+}
+@media all and (min-width:1200px) and (max-width:1980px) and (min-height:0px)and (max-height:599px){
+  
+    /*PART 1*/
+    
+    #content_lecture{
+        width: 50em;
+        font-size: 0.8em;
+       
+    }
+    
+    #tittle_1 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_1 p{
+        font-size: 1.6em;
+    }
+    
+    #master_1{
+        height: 22em;
+    }
+    
+    /*PART 2*/
+    
+    #content_lecture_2{
+        width: 30em;
+        font-size: 1.3em;
+       
+    }
+    
+    #tittle_2 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_2 p{
+        font-size: 1.6em;
+    }
+    
+    #master_2{
+        height: 20em;
+    }
+    /*PART 3*/
+    
+       #tittle_3 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_3 p{
+        font-size: 1.4em;
+    }
+ 
+    #content_lecture_3{
+        top: 215%;
+        left: 10%;
+        width: 30em;
+        font-size: 1.4em;
+       
+    }
+    
+    /*PART4*/
+    
+    #hello{
+        font-size: 1.1em;
+    }
+  
+}
+
+
+
+@media all and (min-width:900px) and (max-width:1200px) and (min-height:650px)and (max-height:852px){
+  
+    /*PART 1*/
+    
+    #content_lecture p{
+        width: 25em;
+        font-size: 1em;
+       
+    }
+    
+    #tittle_1 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_1 p{
+        font-size: 1.6em;
+    }
+    
+    #master_1{
+        height: 22em;
+        width: 21em;
+    }
+    
+    /*PART 2*/
+    
+    #content_lecture_2{
+        width: 25em;
+        font-size: 1em;
+       
+    }
+    
+    #tittle_2 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_2 p{
+        font-size: 1.6em;
+    }
+    
+    #master_2{
+        height: 20em;
+    }
+    /*PART 3*/
+    
+       #tittle_3 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_3 p{
+        font-size: 1.4em;
+    }
+ 
+    #content_lecture_3{
+        top: 215%;
+        left: 10%;
+        width: 30em;
+        font-size: 1.4em;
+       
+    }
+    
+    /*PART4*/
+    
+    #hello{
+        font-size: 1em;
+    }
+    
+      /*BUTTON*/
+    
+    #next {
+        left: 65%;
+        width: 15%;
+    }
+    
+    #previous {
+         left: 25%;
+        width: 15%;
+    }
+    
+    #reload_button {
+        font-size: 100%;
+        box-sizing: content-box;
+        font-size: 0.6em;
+    }
+    
+    #point{
+        left: 45%;
+    }
+    
+     
+    #point2{
+         left: 49%;
+    }
+    
+     
+    #point3{
+        left: 53%; 
+    }
+    
+     
+    #point4{
+         left: 57%;
+    }
+}
+@media all and (min-width:900px) and (max-width:1200px) and (min-height:0px)and (max-height:650px){
+  
+    /*PART 1*/
+    
+    #content_lecture{
+      
+        width: 35em;
+        font-size: 0.6em;
+       
+    }
+    
+    #tittle_1h5{
+        font-size: 2em;
+    }
+    
+     #tittle_1 p{
+        font-size: 1.6em;
+    }
+    
+    #master_1{
+        height: 22em;
+        width: 19em;
+    }
+    
+    /*PART 2*/
+    
+    #content_lecture_2{
+        width: 28em;
+        font-size: 0.9em;
+       
+    }
+    
+    #tittle_2 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_2 p{
+        font-size: 1.6em;
+    }
+    
+    #master_2{
+        height: 20em;
+       
+    }
+    /*PART 3*/
+    
+       #tittle_3 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_3 p{
+        font-size: 1.4em;
+    }
+ 
+    #content_lecture_3{
+        top: 215%;
+        left: 10%;
+        width: 30em;
+        font-size: 1.4em;
+       
+    }
+    
+    /*PART4*/
+    
+    #hello{
+        font-size: 0.9em;
+    }
+    
+      /*BUTTON*/
+    
+    #next {
+        left: 65%;
+        width: 15%;
+    }
+    
+    #previous {
+         left: 25%;
+        width: 15%;
+    }
+    
+    #reload_button {
+        font-size: 100%;
+        box-sizing: content-box;
+        font-size: 0.6em;
+    }
+    
+    #point{
+        left: 45%;
+    }
+    
+     
+    #point2{
+         left: 49%;
+    }
+    
+     
+    #point3{
+        left: 53%; 
+    }
+    
+     
+    #point4{
+         left: 57%;
+    }
+  
+}
+/*vetical*/
+
+
+@media all and (min-width:900px) and (max-width:1200px) and (min-height:852px)and (max-height:1080px){
+  
+    /*PART 1*/
+    
+    #content_lecture{
+        width: 30em;
+        font-size: 0.8em;
+       
+    }
+    
+    #tittle_1 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_1 p{
+        font-size: 1.6em;
+    }
+    
+    
+    /*PART 2*/
+    
+    #content_lecture_2{
+        width: 20em;
+        font-size: 1.1em;
+       
+    }
+    
+    #tittle_2 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_2 p{
+        font-size: 1.6em;
+    }
+    
+    
+    /*PART 3*/
+    
+       #tittle_3 h5{
+        font-size: 2em;
+    }
+    
+     #tittle_3 p{
+        font-size: 1.4em;
+    }
+ 
+    #content_lecture_3{
+        left: 10%;
+        width: 30em;
+        font-size: 1.4em;
+       
+    }
+    
+    /*PART4*/
+    
+    #hello{
+        font-size: 1.2em;
+    }
+    
+    /*BUTTON*/
+    
+    #next {
+        left: 65%;
+        width: 15%;
+    }
+    
+    #previous {
+         left: 25%;
+        width: 15%;
+    }
+    
+    #reload_button {
+        font-size: 100%;
+        box-sizing: content-box;
+        font-size: 0.6em;
+    }
+    
+    #point{
+        left: 45%;
+    }
+    
+     
+    #point2{
+         left: 49%;
+    }
+    
+     
+    #point3{
+        left: 53%; 
+    }
+    
+     
+    #point4{
+         left: 57%;
+    }
+}
+
+
+@media all and (min-width:500px) and (max-width:900px) and (min-height:852px)and (max-height:1080px){
+  
+    /*PART 1*/
+    
+    #tittle_1{
+        top: 10%;
+        left:3%;
+        width: 100%;
+            
+    }
+    
+    #content_lecture{
+        width: 90%; 
+        font-size: 0.9em;
+       
+    }
+    
+    #tittle_1 h5{
+        font-size: 1.8em;
+  
+    }
+    
+     #tittle_1 p{
+        top: 25%;
+         left: 0%;
+        font-size: 1.6em;
+    }
+    
     #master_1{
         visibility: hidden;
     }
     
+    /*PART 2*/
     
-#tittle_blockchain{
-    top: 7%;
-    left: 5%;
-    width: 90%;
-    font-size: 0.6em;
-    
+    #tittle_2{
+        top: 111%;
+        left:3%;
+        width: 100%;
+            
     }
-    #tittle_blockchain p{
-        top: 20%;
-    } 
     
-    #content_2_btc #tittle_blockchain p{
-        position: absolute;
-        top: 530%;
+    #content_lecture_2{
+         width: 90%; 
+        font-size: 1.3em;
+    }
+    
+    #tittle_2 h5{
+        font-size: 1.8em;
+    }
+    
+     #tittle_2 p{
         font-size: 1.6em;
-       
+          left: 0%;
     }
     
-    #content_2_btc #tittle_blockchain h5{
-      font-size: 2.5em;
-        width: 80%;
-    }
-    
-      #content_3_btc #tittle_blockchain p{
-        position: absolute;
-        top: 1030%;
-        font-size: 1.6em;
-       
-    }
-    
-    #content_3_btc #tittle_blockchain h5{
-      font-size: 2.5em;
-        width: 80%;
-    }
-    
-    
-      #content_lecture {
-        font-size:0.78em;
-          width: 90%;
-          height: 70%;
-          opacity: 0.80;
-          top: 16%;
-           left: 5%;
-              background: black;
-          border-radius: 15px;
-                 
-    }
-    
-        #content_lecture_2 {
-          width: 90%;
-          height: 70%;
-           left: 5%;
-              background: black;
-          border-radius: 15px;
-    }
-    
-   
-       
-    #content_lecture_2 p{
-        font-size: 1.2em;
-        width: 90%;
-          height: 70%;
-        top: 124%;
-        
-        
-    }
-    
-    #content_lecture_3 {
-            font-size: 1em;
-          width: 90%;
-          height: 70%;
-          top: 15%;
-           left: 5%;
-              background: black;
-          border-radius: 15px;
-    }
-    
-   
-       
-    #content_lecture_3 p{
-          font-size: 1.2em;
-        width: 90%;
-          height: 70%;
-        
-        
-    }
     
     #master_2{
-       visibility: hidden; 
+        visibility: hidden;
+       
     }
     
+    /*PART 3*/
+    
+    
+    #tittle_3{
+        top: 211%;
+        left:3%;
+        width: 100%;
+            
+    }
+       #tittle_3 h5{
+        font-size: 1.6em;
+    }
+    
+     #tittle_3 p{
+        font-size: 1.6em;
+         left: 0%;
+    }
  
-     #ramdom {
-     width: 35%;
-         left:60%;
-        
-    }
-    
-     #ramdom_2 {
-          width: 35%;
-         left: 6%;
-    }
-    
-     #ramdom_3 {
-     height: 5%;
-         width: 35%;
-         top: 0.5%; 
-         left: 10%;
-    }
-    
-        
-       #nav_1{
-           top: 50%;
-           left:-35%;
-           
-   
-         }
-
-         #nav_2{
-             
-             top: 50%;
-           left:2%;
-    
-             }
-
-
-          #nav_3{
-              top: 50%;
-           left:50%;
+    #content_lecture_3{
+        width: 90%; 
+        font-size: 1.4em;
        
-            }
+    }
     
-       
-#point{
-left: 43%;
+    /*PART4*/
     
-}
-#point2{
-    left: 48%;
+    #hello{
+        font-size: 0.9em;
+    }
+    
+    /*BUTTON*/
+    
+    #next {
+        left: 65%;
+        width: 15%;
+        font-size: 0.7em;
+         letter-spacing: 2px;
+    }
+    
+    #previous {
+         left: 25%;
+        width: 15%;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+    }
+    
+    #reload_button {
+        width:20%;
+        height: 4%;
+        font-size: 100%;
+        box-sizing: content-box;
+        font-size: 0.55em;
+        letter-spacing: 0.5px;
+    }
+    ul {
+        
+        width: 100%;
+        left: 35%;
+        top: 2%;
+         padding-left: 15%;
+        padding-right: 15%;
+    }
   
-}
-   
-#point3{
-    left: 53%;
-    
-}
-   
-#point4{
-    left: 57%;
-   
-}
-   
-    #hello p{
-        font-size: 1.1em;
-    }
-    
+    ul li{
         
-    
-
-      }
-
-@media  all and (max-width:1800px)and (min-width:724px){
-    
-    #content_2_btc #tittle_blockchain p{
-        top:565%;
-    }
-    
-    #content_3_btc #tittle_blockchain p{
-        top:1035%;
-    }
-    
-    
-    #tittle_blockchain p{
-         top:60%;
-    }
+          width: 20%;      
       
-    #content_lecture p{
-        font-size:1.3em;
-        width: 175%;
-        
-       
+    }
+    #point{
+        left: 45%;
+    }
+    
+     
+    #point2{
+         left: 49%;
+    }
+    
+     
+    #point3{
+        left: 53%; 
+    }
+    
+     
+    #point4{
+         left: 57%;
+    }
+    
+    
+}
+
+
+@media all and (min-width:500px) and (max-width:900px) and (min-height:0px)and (max-height:900px){
+  
+    /*PART 1*/
+    
+    #tittle_1{
+        top: 10%;
+        left:3%;
+        width: 100%;
+            
     }
     
     #content_lecture{
-        top: 30%;
-    }
-    
+        width: 90%; 
+        font-size: 0.7em;
        
-    #content_lecture_2 p{
-        font-size:1.3em;
-        width: 50%;
-        
     }
     
-       
-    #content_lecture_3 p{
-        font-size:1.3em;
-         width: 50%;
-        
+    #tittle_1 h5{
+        font-size: 1.8em;
+  
     }
     
-    #hello{
-        font-size: 0.8em;
+     #tittle_1 p{
+        top: 25%;
+         left: 0%;
+        font-size: 1.6em;
     }
     
-      #ramdom{
-        width: 15%;
+    #master_1{
+        visibility: hidden;
     }
     
-     #ramdom_2{
-           width: 15%;
-         left: 32%;
-        
-    }
+    /*PART 2*/
     
-    #ramdom_3{
-        width: 20%
-    }
-    
-    
-    @media  all and (max-width:1800px)and (min-width:724px) and (max-height:824px){
-    
-        
-        #tittle_blockchain p{
-           top: 75%;
-        }   
-        
-        
-    #content_2_btc #tittle_blockchain p{
-        top:578%;
-    }
-    
-    #content_3_btc #tittle_blockchain p{
-        top:1045%;
-    }
-        #content_lecture{
+    #tittle_2{
+        top: 111%;
+        left:3%;
+        width: 100%;
             
-            width: 50%;
-            height: 20%;
-        }
-    #content_lecture p{
-        font-size:1.1em;
-        width: 50%;
-            height: 20%;
-       
+    }
+    
+    #content_lecture_2{
+         width: 90%; 
+        font-size: 1.3em;
+    }
+    
+    #tittle_2 h5{
+        font-size: 1.8em;
+    }
+    
+     #tittle_2 p{
+        font-size: 1.6em;
+          left: 0%;
+    }
+    
+    
+    #master_2{
+        visibility: hidden;
        
     }
     
-       
-    #content_lecture_2 p{
-        font-size:1.2em;
-        width: 50%;
-        
+    /*PART 3*/
+    
+    
+    #tittle_3{
+        top: 211%;
+        left:3%;
+        width: 100%;
+            
+    }
+       #tittle_3 h5{
+        font-size: 1.6em;
     }
     
-       
-    #content_lecture_3 p{
-         font-size:1.2em;
-         width: 50%;
-        
-    }
-    
-    #hello{
-        font-size: 0.8em;
-    }
-        
-    }
-   
-    @media  all and (max-width:999px) and (min-width:650px){
-        #content_2_btc #tittle_blockchain p{
-        top:565%;
-    }
-    
-    #content_3_btc #tittle_blockchain p{
-        top:1035%;
-    }
-      
-    #content_lecture p{
-         width: 180%;
-       
-    font-size: 1.1em;
-       
-    }
-        
-        #content_lecture{
-            left: 25%;
-        }
-    
-       
-    #content_lecture_2 p{
-        font-size:1.2em;
-        width: 50%;
-        left: 20%;
-        
-    }
-    
-       
-    #content_lecture_3 p{
-        font-size:1.2em;
-         width: 50%;
-         left: 20%;
-        
-    }
-    
-    #hello{
-        font-size: 0.8em;
-    }
-        
-        #master_2{
-            visibility: hidden;
-        }
-        
-        #master_1{
-            visibility: hidden;
-        }
-        
+     #tittle_3 p{
+        font-size: 1.6em;
+         left: 0%;
     }
  
+    #content_lecture_3{
+        width: 90%; 
+        font-size: 1.4em;
+       
+    }
+    
+    /*PART4*/
+    
+    #hello{
+        font-size: 0.9em;
+    }
+    
+    /*BUTTON*/
+    
+    #next {
+        left: 65%;
+        width: 15%;
+        font-size: 0.7em;
+         letter-spacing: 2px;
+    }
+    
+    #previous {
+         left: 25%;
+        width: 15%;
+        font-size: 0.7em;
+        letter-spacing: 2px;
+    }
+    
+    #reload_button {
+        width:20%;
+        height: 4%;
+        font-size: 100%;
+        box-sizing: content-box;
+        font-size: 0.55em;
+        letter-spacing: 0.5px;
+    }
+    ul {
+        
+        width: 100%;
+        left: 35%;
+        top: 2%;
+         padding-left: 15%;
+        padding-right: 15%;
+    }
+  
+    ul li{
+        
+          width: 20%;      
+      
+    }
+    #point{
+        left: 45%;
+    }
+    
+     
+    #point2{
+         left: 49%;
+    }
+    
+     
+    #point3{
+        left: 53%; 
+    }
+    
+     
+    #point4{
+         left: 57%;
+    }
+    
+    
+}
+
+/**** samrtphone ****/
+
+@media screen and (min-device-width:250px)and (max-device-width:500px) and (min-device-height:400px)and (max-device-height:900px)
+
