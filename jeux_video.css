@@ -52,7 +52,23 @@ img{
 }
 
 
+#transition_page_1 div:nth-child(1n){
+    position: absolute;
+    bottom: -0%;
+    left: -155%;
+    transform: rotate(310deg);
+    border: 1px solid white;
+    border-left: none;
+    border-right: none;
+    bordor-top:none;
+    width: 300%;
+    height: 0%;
+    transition: 2s;
 
+
+  
+    
+}
 
 /* ***************************   BLOCKCHAIN  **************************** */
 
@@ -1713,3 +1729,50 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
     
     
 }
+
+
+
+@media screen and (min-device-width:250px)and (max-device-width:500px) and (min-device-height:400px)and (max-device-height:900px){
+    
+    #reload_button{
+        top: 2%;
+        height: 3%;
+        width: 30%;
+    }
+    
+    #tittle_1{
+        top: 10%;
+        left: 3%;
+    }
+    
+    #tittle_1 p {
+        left: 0%;
+        top: 20%;
+        
+        
+    }
+    
+    ul {
+        
+        width: 100%;
+        left: 38%;
+        top: 2%;
+         padding-left: 15%;
+        padding-right: 15%;
+    }
+  
+    ul li{
+        
+          width: 20%;      
+      
+    }
+    #content_lecture{
+        top: 30%;
+        font-size: 1.4em;
+    }
+    
+     
+    
+}
+
+
