@@ -197,7 +197,7 @@ a{
 #tittle_2{
     z-index: 15;
     position: absolute;
-    color: #03e9f4;
+    color: red;
     z-index: 350;
     left: 25%;
     top: 100%;
@@ -215,6 +215,7 @@ a{
 #tittle_2 p{
     position: absolute;
        font-size: 2.3em;
+    font-weight: bold;
     left: 20%;
     margin: 0;
     
@@ -236,7 +237,7 @@ a{
 #tittle_3{
     z-index: 15;
     position: absolute;
-    color: #03e9f4;
+    color: red;
     z-index: 350;
     left: 25%;
     top: 200%;
@@ -257,7 +258,7 @@ a{
     top: 30%;
     left: 20%;
     margin: 0;
-    
+     font-weight: bold;
     
     
 }
@@ -1729,5 +1730,136 @@ background: linear-gradient(90deg, rgba(4,4,46,1) 0%, rgba(5,5,60,1) 100%);
 
 /**** samrtphone ****/
 
-@media screen and (min-device-width:250px)and (max-device-width:500px) and (min-device-height:400px)and (max-device-height:900px)
+
+@media screen and (min-device-width:250px)and (max-device-width:500px) and (min-device-height:400px)and (max-device-height:900px){
+  
+   
+    
+    #tittle_1{
+        top: 10%;
+        left: 3%;
+    }
+    
+    #tittle_1 p {
+        left: 0%;
+        top: 20%;
+        
+        
+    }
+    
+    #content_lecture{
+        top: 30%;
+        font-size: 1.4em;
+    }
+    
+    #master_1{
+        visibility: hidden;
+    }
+  /* PART 2   */ 
+    
+    #master_2{
+        visibility: hidden;
+    }
+    
+     #content_lecture_2{
+        margin-left: 10%;
+    }
+    
+    #content_lecture_2 p{
+        font-size: 1.5em;
+    }
+    #tittle_2{
+        top: 110%;
+        left: 3%;
+    }
+        #tittle_2 p{
+        top: 20%;
+        left: 0%;
+    }
+    
+     /* PART 3 */ 
+    
+    #master_2{
+        visibility: hidden;
+    }
+    
+     #content_lecture_3{
+        margin-left: 15%;
+    }
+    
+    #content_lecture_3 p{
+        font-size: 1.5em;
+    }
+    
+    #tittle_3{
+        top: 210%;
+        left: 3%;
+    }
+    
+        #tittle_3 p{
+        top: 20%;
+        left: 0%;
+    }
+    
+     /* PART 3 */ 
+    
+    #hello{
+        font-size: 1.6em;
+    }
+/*  BUTTON */
+    
+    ul {
+        font-size: 1.4em;
+         width: 100%;
+        left: 38%;
+        top: 2%;
+         padding-left: 17%;
+        padding-right: 15%;
+    }
+  
+    ul li{
+          
+        color: white;
+          width: 20%;      
+      
+    }
+    
+     #reload_button{
+        top: 2%;
+        height: 3%;
+         font-size: 1.4em;
+        width: 30%;
+    }
+    
+    #next{
+        left: 62%;
+        width: 30%;
+        font-size: 1.5em;
+    }
+    
+     #previous{
+         left: 8%;
+        width: 30%;
+        font-size: 1.5em;
+    }
+    
+    #point{
+      left: 43%;  
+    }
+    
+     
+    #point2{
+        left: 48%; 
+    }
+    
+     
+    #point3{
+       left: 53%; 
+    }
+    
+     
+    #point4{
+        left: 58%; 
+    }
+}
 

@@ -1144,6 +1144,7 @@ img{
     #border_1{
       height: 40%;
        width: 80%;
+        top: 2%;
         left: 5%;
          margin-bottom: 30px;
     }
@@ -1151,6 +1152,7 @@ img{
     #border_2{
            height: 40%;
         width: 80%;
+        top: 1%;
         left: 5%;
             margin-bottom: 30px;
        
@@ -1160,7 +1162,7 @@ img{
          height: 40%;
          width: 80%;
         left: 5%;
-       
+         top: 1%;
     }
     
     
