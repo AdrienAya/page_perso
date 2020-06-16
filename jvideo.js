@@ -347,7 +347,6 @@ var transition_3 = document.getElementById('transition_page_2');
                   console.log(a);
               }
              if(code==40){
-                                  
                   a++;
                  console.log(a);
               } 
