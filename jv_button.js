@@ -81,7 +81,7 @@ var button_nav_3 = document.getElementById('nav_3');
                    setTimeout(function(){
                        
                                      
-                                     window.location= "ia.html";                                     
+                                     window.location= "intelligence_artificielle.html";                                     
                                          
                                         },1000);
                  

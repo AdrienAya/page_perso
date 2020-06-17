@@ -125,7 +125,7 @@ var transition_3 = document.getElementById('transition_page_2');
                  
                    setTimeout(function(){
                                      
-                                     window.location= "ia.html";                                     
+                                     window.location= "intelligence_artificielle.html";                                     
                                          
                                         },1000);
              
