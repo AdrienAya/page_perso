@@ -261,7 +261,6 @@ function changing_section(a) {
         point_three.style.background = "grey";
     }
 
-    console.log(a);
 
     
     point_jor[a].style.background = "white";
