@@ -268,7 +268,7 @@ a{
 }
 
 
-
+/****** BUTTON NEXT PREVIOUS RELOAD / POINT *********/
 
 
 #next{
@@ -387,6 +387,7 @@ a{
 
 
 #reload_button:after{
+    
    position: absolute;
     content: '';
     border: 1px solid transparent;
@@ -406,9 +407,7 @@ a{
     width: 50%;
     background: white;
 }
-
-
-
+       
 #scroll{
  
      height: 100%;
@@ -479,7 +478,7 @@ a{
      cursor: pointer;
 }
    
-
+/*********  section 1 JEUX VIDEO LES DEBUTS **********/
 
 #content_1{
     
@@ -644,7 +643,7 @@ a{
        transform: var(--level-two); 
 }
 
-/* **************** PARTIE 2 **************** */
+/* **************** PARTIE 2 RENOUVEAU DES CONSOLES  **************** */
 
 #content_2{
       
@@ -814,7 +813,7 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
     
 }
 
-/* ********************************* PART 3 ********************************/
+/* ********************************* PART 3 JEUX VIDEO 10E ART ********************************/
 
 #content_3{
       
@@ -900,7 +899,7 @@ background: radial-gradient(circle, rgba(34,12,110,1) 17%, rgba(46,12,92,1) 33%,
 }
 
 
-/**************************** PART 4 **********************/
+/**************************** PART 4 CONCLUSION **********************/
 
 #content_4{
       
@@ -1314,7 +1313,9 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
     }
   
 }
-/*vetical*/
+
+
+/********************************** VERTICAL *******************************/
 
 
 @media all and (min-width:900px) and (max-width:1200px) and (min-height:852px)and (max-height:1080px){
@@ -1724,7 +1725,7 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
 }
 
 
-
+/*************************** SMARTPHONE **************************************/
 @media screen and (min-device-width:250px)and (max-device-width:500px) and (min-device-height:400px)and (max-device-height:900px){
   
    

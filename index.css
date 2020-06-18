@@ -28,6 +28,17 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
     
 }
 
+img{
+    
+    width:100%;
+    height: 100%;
+    opacity: 100%;
+    border-radius: 5px;
+    z-index: 10;
+    
+}
+
+
 #photo_background_1{
     position: absolute;
     width: 100%;
@@ -37,6 +48,8 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
     opacity: 0.5;  
     
 }
+
+/* HEADER */
 
 #header_index{     
     
@@ -79,10 +92,11 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
     align-content: center;
     width: 50%;
     color: white;
- 
     font-weight: lighter;
     padding-bottom: 1%; 
+    
     }
+
 
 #block_1{
     padding-top: 8%;
@@ -96,33 +110,64 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
 }
 
 
-#img_2{
-      position: absolute;
+
+h4{
+   position: relative;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 25px;
+ font-family: 'Montserrat', sans-serif;
+   z-index: 10;
+    height: 95%;
+    
+   
+   
+   
+  }
+
+/*** SECTION JEUX VIDEO ***/
+#border_1{
+    
+    position: relative;
+    height: 80%;
+    width: 25%;
+    margin-left: 5%;
+    float: left;
+    background-color: #102037;
+    transition-property:background ;
+    transition: box-shadow .5s;
+    transition: 0.5s;
+    color: white;
+    border-radius: 10px;
+      z-index: 3;
+    border: 1px solid #28272b;
+    opacity: 0.9;
+    
+}
+
+
+
+#img_1{
+    
+     position: absolute;
      top:26.5%; 
      left: 13%;    
      display: table;
      margin: auto;
      height: 50%;
      width: 75%;
-     border-radius:20px;
+     border-radius:20px;      
 }
 
 
-#img_3{
-      position: absolute;
-     top:26.5%; 
-     left: 13%;    
-     display: table;
-     margin: auto;
-     height: 50%;
-     width: 75%;
-     border-radius:20px;
-}
 
+
+/*** SECTION INTELLIGENCE ARTIFICIELLE ***/
 
 
 #border_2{
-  position: relative;
+    
+   position: relative;
     height: 80%;
     width: 25%;
     margin-left: 5%;
@@ -139,7 +184,21 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
 
 }
 
+#img_2{
+    
+      position: absolute;
+     top:26.5%; 
+     left: 13%;    
+     display: table;
+     margin: auto;
+     height: 50%;
+     width: 75%;
+     border-radius:20px;
+    
+}
 
+
+/*** SECTION BLOCKCHAIN ***/
 
 #border_3{
    position: relative;
@@ -159,34 +218,8 @@ background: radial-gradient(circle, rgba(255,0,78,1) 0%, rgba(111,36,129,1) 27%,
 
 }
 
-
-h4{
-   position: relative;
-    text-align: center;
-    font-weight: lighter;
-    font-size: 25px;
- font-family: 'Montserrat', sans-serif;
-   z-index: 10;
-    height: 95%;
-    
-   
-   
-   
-  }
-img{
-    
-    width:100%;
-    height: 100%;
-    opacity: 100%;
-    border-radius: 5px;
-    z-index: 10;
-    
-}
-
-
-
-#img_1{
-     position: absolute;
+#img_3{
+      position: absolute;
      top:26.5%; 
      left: 13%;    
      display: table;
@@ -194,34 +227,13 @@ img{
      height: 50%;
      width: 75%;
      border-radius:20px;
-    
-    
-    
-    
-   
 }
 
+/*********** SECTION HOVER OF ELEMENTS OF MENU FOR CHANGE HTML PAGE /HOVER BLOCK AND HOVER BUTTON **********************/
 
-#border_1{
-    position: relative;
-    height: 80%;
-    width: 25%;
-    margin-left: 5%;
-    float: left;
-    background-color: #102037;
-    transition-property:background ;
-    transition: box-shadow .5s;
-    transition: 0.5s;
-    color: white;
-    border-radius: 10px;
-      z-index: 3;
-    border: 1px solid #28272b;
-    opacity: 0.9;
-    
-  
-    
-}
 
+
+/***************************************************** BOX SHADOW  MENU ***/
 
 #border_1:hover{
       
@@ -256,6 +268,8 @@ img{
                     1px 1px 25px #03e9f4;
               text-shadow: 4px 4px 4px #03e9f4;
 }
+
+/***************************************************** BUTTON ANIMATION  ***/
 
 #button_index {
     position: absolute;
@@ -498,6 +512,7 @@ img{
    
 }
 
+/********************************************** BOX SHADOW  IMG  ***/
 
 #border_1:before {
     
@@ -560,6 +575,8 @@ img{
     border-radius:5px;  
 }
 
+/**************************************************** ANIMATION LINE H4 ******/
+
 .tittle_passions:before{
     position: absolute;
     top: 10%;
@@ -611,10 +628,13 @@ img{
     
 }
 
+/************************************ END  SECTION HOVER OF ELEMENTS OF MENU FOR CHANGE HTML PAGE /HOVER BLOCK AND HOVER BUTTON ***/
 
-/***************** MEDIA QUERIES ***********************/
+/********************************************************************** MEDIA QUERIES ***********************/
 
-/************************  1000*1400 ***************************/
+
+/********************************************************  1000*1400 **/
+
 @media all and (min-width:1000px) and (max-width:1400px){
     #header_index p{
         font-size: 17px;
@@ -762,7 +782,7 @@ img{
 }
 
    
-/************************  1000*768 ***************************/
+/************************************************************  1000*768 *************/
 
 @media all and (min-width:10px) and (max-width:420px)
   {
@@ -1016,7 +1036,7 @@ img{
     
 }
 
-/************************  1980px*1080 ***************************/
+/******************************************************************  1980px*1080 ****/
 
 
 
@@ -1113,7 +1133,7 @@ img{
     
 }
 
-/************ SMARTPHONE *****************/
+/*********************************************** SMARTPHONE *************************************************/
 
 @media screen and (min-device-width:250px)and (max-device-width:500px) and (min-device-height:400px)and (max-device-height:900px){
     
